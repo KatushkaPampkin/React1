@@ -1,6 +1,7 @@
+
 import React from "react";
 
-import "./HeaderMenu.css";
+import "./HeaderMenu.scss";
 
 const HeaderMenu = ({
                         menu,
@@ -13,8 +14,8 @@ const HeaderMenu = ({
     console.log("theme = ", theme);
 
     return (
-        <div className="headerMenu">
-            <ul className="headerMenuContainer font-dancing-script">
+        <div className="headerMenuContainer">
+            <ul className={theme === "light" ? "theme-light" : "theme-dark"}>
                 <li>
                     <a className="headerLink headerLink--arrow" href="#">
                         проекты
@@ -51,6 +52,9 @@ const HeaderMenu = ({
                 </li>
             </ul>
 
+             <button onClick={handleChangeTheme}>
+                 Текущая тема {theme}.
+            </button>
 
         </div>
     );
