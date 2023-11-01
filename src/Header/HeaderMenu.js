@@ -10,12 +10,12 @@ const HeaderMenu = ({
                         counter,
                         setCounter,
                     }) => {
-    console.log("menu = ", menu);
-    console.log("theme = ", theme);
+   /* console.log("menu = ", menu);
+    console.log("theme = ", theme);*/
 
     return (
-        <div className="headerMenuContainer">
-            <ul className={theme === "light" ? "theme-light" : "theme-dark"}>
+        <div className="headerMenu">
+            <ul className="headerMenuContainer">
                 <li>
                     <a className="headerLink headerLink--arrow" href="#">
                         проекты
@@ -52,9 +52,9 @@ const HeaderMenu = ({
                 </li>
             </ul>
 
-             <button onClick={handleChangeTheme}>
+             {/*<button onClick={handleChangeTheme}>
                  Текущая тема {theme}.
-            </button>
+            </button>*/}
 
         </div>
     );

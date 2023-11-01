@@ -1,8 +1,8 @@
 import React from 'react'
-import img from '../image/Union.svg'
-import Paintbrush from '../image/Paintbrush.svg'
-import CheckMark from '../image/CheckMark.svg'
-import Paper from '../image/Paper.svg'
+import img from '../../image/Union.svg'
+import Paintbrush from '../../image/Paintbrush.svg'
+import CheckMark from '../../image/CheckMark.svg'
+import Paper from '../../image/Paper.svg'
 import './Banner.scss'
 
 const Banner = () => {

@@ -11,25 +11,6 @@ import HeaderMenu from "../Header/HeaderMenu";
 
 
 const Header = () => {
-    const menuPoints = [
-        "Главная",
-        "Наши услуги",
-        "О компании",
-        "Калькулятор",
-        "Отзывы",
-    ];
-
-    const [theme, setTheme] = useState("light");
-
-
-    const handleChangeTheme = () => {
-        if (theme === "light") {
-            setTheme("dark");
-        }
-        if (theme === "dark") {
-            setTheme("light");
-        }
-    };
 
     return (
         <div className="wrapper">
@@ -73,19 +54,10 @@ const Header = () => {
                     </div>
                 </div>
 
-                 {/*<button onClick={() => handleChangeTheme()}>
-                Текущая тема {theme}.
-            </button>*/}
 
             </header>
-            <HeaderMenu
-                menu={menuPoints}
-                theme={theme}
-                handleChangeTheme={handleChangeTheme}
-
-            />
+            <HeaderMenu/>
         </div>
-    );
-};
+    );}
 
 export default Header;

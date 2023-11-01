@@ -1,0 +1,141 @@
+.Block3 {
+    margin-top: 136px;
+
+
+    .gellery__title {
+        text-align: center;
+        color: #2D2D2F;
+        font-size: 47.04px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 47.04px;
+
+        span {
+            color: #2D2D2F;
+            font-size: 47.04px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 47.04px;
+        }
+    }
+
+    .Block3__items {
+        margin-top: 47px;
+        margin-left: 15%;
+        display: grid;
+        grid-template: repeat(3, 161px)/repeat(3, 348px);
+        gap: 30px;
+        /*position: center;*/
+
+        .Block3__item {
+            position: relative;
+            .Block3__item-image {
+                position: absolute;
+            }
+
+            .Block3__item-title {
+                position: relative;
+                font-family: Gilroy;
+                z-index: 1;
+                color: #FFF;
+                font-size: 23px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22.314px;
+                margin-top: 29px;
+                margin-left: 40px;
+            }
+            .projects {
+                position: absolute;
+                top: 30px;
+                left: 234px;
+                color: #000;
+                font-family: Gilroy;
+                font-size: 9px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 8.788px; /* 97.645% */
+                padding: 7px 8px 5px 9px;
+                border-radius: 12.5px;
+                background: #FFF;
+            }
+            .projects-big {
+                top: 45px;
+            }
+            .Block3__item-text {
+                span {
+                    color: #FFF;
+                    font-size: 23.061px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 23.061px;
+                }
+                position: absolute;
+                z-index: 1;
+                color: #FFF;
+                font-family: Gilroy;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 12.515px;
+                top: 115px;
+                left: 204px;
+            }
+            .Block3__item-text-big {
+                top: 225px;
+                left: 44px;
+                span {
+                    color: #FFF;
+                    font-size: 29.257px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 29.257px; /* 100% */
+                }
+            }
+            .Block3__item-title-big {
+                position: relative;
+                font-family: Gilroy;
+                z-index: 1;
+                color: #FFF;
+                font-size: 29.257px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 29.257px;
+                margin-top: 45px;
+                margin-left: 44px;
+            }
+            .Block3__item-btn {
+                margin-top: 26px;
+                margin-left: 40px;
+                border-radius: 3.321px;
+                background: #73B918;
+                padding: 11px 16px;
+                position: relative;
+                z-index: 1;
+                color: #FCFCFE;
+                font-family: Gilroy;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 11.937px;
+                text-transform: uppercase;
+            }
+            .Block3__item-btn-big {
+                margin-left: 44px;
+                margin-top: 162px;
+            }
+        }
+
+        .Block3__item-big1 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+
+        .Block3__item-big2 {
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+    }
+}
