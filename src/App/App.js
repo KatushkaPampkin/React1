@@ -4,6 +4,7 @@ import Banner from "../MainPart/Banner/Banner";
 
 import Block3 from "../MainPart/Block3/Block3";
 import SwiperSlider from "../MainPart/SwiperSlider/SwiperSlider";
+import UIM from "../MainPart/UIM/UIM"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             <Banner/>
             <Block3/>
             <SwiperSlider/>
+            <UIM/>
         </div>
       </>
   );
