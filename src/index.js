@@ -5,7 +5,7 @@ import App from "../src/App/App";
 import { BrowserRouter } from "react-router-dom";
 
 import { Provider } from "react-redux";
-import { store } from "../src/MainPart/Block2/Calc";
+import { store } from "../src/MainPart/Block2/store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

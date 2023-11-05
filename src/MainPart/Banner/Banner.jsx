@@ -14,7 +14,7 @@ const Banner = () => {
             под ключ в Курске</h1>
           <h2>Построим теплый и надежный дом <br/>
             <span> с гарантией 10 лет</span></h2>
-          <button>рассчитать стоимость</button>
+
           <div className="bannerRow">
             <div className="bannerRowItem">
               <img src={img} alt="" />

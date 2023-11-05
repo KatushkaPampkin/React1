@@ -14,38 +14,38 @@ import lock from '../../image/Lock.svg'
 import lock2 from '../../image/Group 11.svg'
 import percent from '../../image/Percent.svg'
 import { useSelector, useDispatch } from "react-redux";
-import { decreaseCurrentCost, increaseCurrentCost, setCurrentStep, addChoice, removeChoice } from '../../MainPart/Block2/Calc/reducers/calculator'
+import { decreaseCurrentCost, increaseCurrentCost, setCurrentStep, addChoice, removeChoice } from '../../MainPart/Block2/store/reducers/calculator'
 
 const slide = [
     {
         title: 'Что будем строить?',
         image: [house, bath],
-        leftCost: 100,
-        rightCost: 3000,
+        leftCost: 10000,
+        rightCost: 5000,
     },
     {
         title: 'Второй слайд',
-        image: [house, image],
-        leftCost: 200,
-        rightCost: 4000,
+        image: [house, bath],
+        leftCost: 10000,
+        rightCost: 5000,
     },
     {
         title: 'Третий слайд',
-        image: [image, bath],
-        leftCost: 300,
+        image: [house, bath],
+        leftCost: 10000,
         rightCost: 5000,
     },
     {
         title: 'Четвёртый слайд',
         image: [house, bath],
-        leftCost: 400,
-        rightCost: 6000,
+        leftCost: 10000,
+        rightCost: 5000,
     },
     {
-        title: 'Пятый слайд',
+        title: 'Пятый',
         image: [bath, house],
-        leftCost: 500,
-        rightCost: 7000,
+        leftCost: 10000,
+        rightCost: 5000,
     },
 ]
 
@@ -156,6 +156,10 @@ const Block2 = () => {
                             </button>}
                     </div>
                 </div>
+
+
+
+
                 <div className="blockRowItem2">
                     <img className='blockRowItem2Flag' src={flag} alt="" />
                     <img className='blockRowItem2Man' src={man} alt="" />
@@ -173,7 +177,6 @@ const Block2 = () => {
                             <span>стоимость строительства</span></p>
                     </div>
                     <div className="blockRowItem2Block">
-
                         <img className='blockRowItem2Lock2' src={lock2} alt="" />
                         <p>Точную подборку<br />
                             <span>проектов исходя изваших

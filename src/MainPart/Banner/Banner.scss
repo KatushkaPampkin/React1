@@ -7,6 +7,7 @@
 
 
     .bannerTitle {
+        padding-top: 10%;
         margin-top: 0;
         margin-left: 7%;
         color: #FFF;
@@ -43,19 +44,7 @@
 
     }
 
-    button {
-        margin-top: 42px;
-        margin-left: 7%;
-        border-radius: 4px;
-        background: #FEAA01;
-        padding: 20px 42px;
-        color: #FBFFFF;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-transform: uppercase;
-    }
+
 
     .bannerRow {
         margin-top: 74px;
@@ -66,6 +55,7 @@
 
         .bannerRowItem {
             p {
+                ;
                 color: #FFF;
                 font-family: Gilroy;
                 font-size: 12px;
@@ -73,7 +63,7 @@
                 font-weight: 400;
                 line-height: normal;
             }
-
+            margin-top: 18%
         }
     }
 }
