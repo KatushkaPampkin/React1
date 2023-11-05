@@ -1,0 +1,40 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 26px;
+    z-index: 1;
+}
+
+/* .Link:hover {
+    border-radius: 14.5px;
+    border: 1px solid #E1A43B;
+} */
+.Link{
+    border-radius: 14.5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 6px 12px 4px 11px;
+    display: flex;
+    align-items: center;
+}
+.Link:hover{
+    border: 1px solid #E1A43B;
+}
+.Link > a {
+    z-index: 1;
+    color: #FBFFFF;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.LinkImage{
+    margin-left: 9px;
+}
+
+.ImageIcon {
+    margin-right: 10px;
+}

@@ -7,7 +7,7 @@ import flag from "../image/Flag.png";
 import stars from "../image/Stars.png";
 import calc from "../image/Calculator.png";
 import social from "../image/socials.svg";
-import HeaderMenu from "../Header/HeaderMenu";
+import Navigation from "../MainPart/Navigation/Navigation";
 
 
 const Header = () => {
@@ -56,7 +56,7 @@ const Header = () => {
 
 
             </header>
-            <HeaderMenu/>
+            <Navigation/>
         </div>
     );}
 
