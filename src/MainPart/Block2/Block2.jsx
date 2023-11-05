@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './Block2.scss'
 import house from '../../image/House.png'
 import bath from '../../image/Bath.png'
-import image from '../../image/block3hoese2.png'
 import check from '../../image/ГалочкаАктивная.svg'
 import checkNoActive from '../../image/ГалочкаНеАктивная.svg'
 import InternaSlider from '../../image/InternaSlider.svg'
@@ -42,10 +41,10 @@ const slide = [
         rightCost: 5000,
     },
     {
-        title: 'Пятый',
-        image: [bath, house],
-        leftCost: 10000,
-        rightCost: 5000,
+        title: 'Итого',
+        image: [],
+        leftCost: 0,
+        rightCost: 0,
     },
 ]
 

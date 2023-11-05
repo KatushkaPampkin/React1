@@ -14,7 +14,6 @@ function App() {
       <>
       <div className="App">
           <Header />
-          {/*<Navigation/>*/}
           <Banner/>
           <main>
               <div className="container">
